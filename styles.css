@@ -65,9 +65,17 @@ body {
     .header_text {
         font-size: 50px;
     }
+    .gif_container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-bottom: 60px;
+    }
 
     img {
-        height: 60vh;
+        width: 60vh;
     }
 
     .btn {
