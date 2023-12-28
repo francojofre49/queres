@@ -57,7 +57,7 @@ body {
     padding-bottom: 60px;
 }
 
-@media only screen and (max-width: 320px)  {
+@media only screen and (min-width: 768px)  { 
     body {
         height: 100vh;
     }
@@ -76,23 +76,3 @@ body {
     }
 }
 
-@media only screen and (min-width: 768px) {
-    body {
-        height: 90vh;
-    }
-
-    .header_text {
-        display: flex;
-       justify-content: space-around;
-        font-size: 25px;
-    }
-
-    img {
-        height: 60vh;
-    }
-
-    .btn {
-        padding: 15px 25px;
-        font-size: 28px;
-    }
-}
